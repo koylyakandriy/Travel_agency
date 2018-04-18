@@ -1,0 +1,43 @@
+$icon_size: 40px;
+.title{
+ text-transform: uppercase;
+ text-align: center;
+ h1{
+   color:$main_yellow_color;
+   font-size: 60px;
+   margin-top: 0;
+ }
+ h2{
+   color: $light_grey;
+   text-transform: uppercase;
+   font-family: 'Raleway', sans-serif;
+   font-weight: 500;
+   font-size: 18px;
+   margin-bottom: 0;
+ }
+ .separator{
+   display: flex;
+   justify-content: center;
+   align-items: center;
+   @mixin sep_line{
+     content: "";
+     display: block;
+     width: 240px;
+     height: 1px;
+     background-color: darken($main_yellow_color, 0);
+   }
+   &::before{
+     @include sep_line;
+
+   }
+   &::after{
+     @include sep_line;
+   }
+   color: $main_yellow_color;
+   i{
+     font-size: $icon_size;
+     margin: 0 ($icon_size/3);
+   }
+ }
+
+}

@@ -1,0 +1,446 @@
+font-face{
+	font-family: Aleo, sans-serif;
+	scr: url('../fonts/Aleo-Font/Webfont Kit/Regular/aleo-regular-webfont.ttf');
+}
+/* @import url('https://fonts.googleapis.com/css?family=Josefin+Sans:400,700'); */
+
+body{
+	max-width: 100%;
+	min-width: 320px;
+	border: 12px solid #fff;
+	font-family: 'Josefin Sans, sans-serif';
+	font-size: 16px;
+}
+
+header{
+	background-image: url(../img/pexels-photo-131743.jpg);
+	background-position: center;
+	background-size: cover;
+	background-repeat: no-repeat;
+	height: 740px;
+}
+
+.ba-container{
+	padding-left: 20px;
+	padding-right: 20px;
+	max-width: 1200px;
+}
+
+.header-overlay{
+	height: 100%;
+	/*width: 100%;*/
+	background: rgba(66,66,66, 0.4);
+}
+
+.head{
+	display: inline-block;
+	position: relative;
+	top: 170px;
+	margin: 0 auto;
+	width: 1110px;
+	text-align: center;
+}
+
+.head__title, .head__subtitle{
+	margin: 0 auto;
+	color: #fff;
+}
+
+.head__title{
+	font-size: 3em;
+	text-transform: uppercase;
+	letter-spacing: 0.1em;
+	line-height: 1.625em;
+}
+
+.head__subtitle{
+	font-size: 1.375em;
+	letter-spacing: .300em;
+	font-weight: 400;
+	line-height: 1.125em;
+}
+
+.head__input{
+	font-family: Aleo;
+	margin-top: 50px;
+	position: relative;
+}
+
+input{
+	text-align: center;
+	height: 58px;
+	width: 647px;
+	padding: 24px 280px 24px 128px;
+}
+
+.head__button{
+	height: 56px;
+	width: 146px;
+	position: absolute;
+	right: 232px;
+	top: 1.1px;
+	background-color: #5474fd;
+	border: 1px solid #fff;
+	color: #fff;
+}
+
+.head__button:hover{
+	color: #5474fd;
+	background: #fff;
+}
+
+.head__button:hover i{
+	color: green;
+}
+
+.head__input i{
+	font-size: 0.875em;
+	margin-left: 10px;
+}
+
+input[type="text"] { 
+    letter-spacing: .14em;
+    font-size: 0.875em;
+   }
+
+  .head__scroll{
+  	margin-top: 115px;
+  	color: #fff;
+  	font-family: 0.875em;
+  }
+
+  a{
+  	color: #fff;
+  	text-decoration: none;
+  }
+
+.head__scroll span:hover i{
+  	color: green;
+  	cursor: pointer;
+  }
+
+#blue{
+	background-color: #5474fd;
+	margin: 0 auto;
+}
+
+.menu{
+	display: flex;
+	width: 100%;
+}
+
+.menu__logo{
+	margin: auto 400px auto 0px;
+	font-size: 24px;
+	font-weight: bold;
+	color: #fff;
+	float: left;
+
+}
+
+.list_items{
+	display: flex;
+	justify-content: space;
+	list-style: none;
+	padding: 0;
+}
+
+.items{
+	color: #fff;
+	font-size: 14px;
+	margin-right: 40px;
+	letter-spacing: .1em;
+}
+
+ .items:nth-child(4){
+   	margin-right: 0;
+   } 
+.list_items li:hover a {
+	color: #ff2;
+}
+
+#grey{
+	background-image: url('../img/pexels-photo-134638.jpg');
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 690px;
+}
+
+.img-overlay{
+    width: 100%;
+    height: 100%;
+    background: rgba(66,66,66,0.9);
+}
+
+.left{
+	position: relative;
+	float: left;
+	width: 550px;
+	margin-top: 210px;
+}
+
+.left__title{
+	margin-bottom: 60px;
+	color: #fff;
+	font-size: 2.250em;
+}
+
+.left_text{
+	color: #bbbaba;
+	letter-spacing: 0.1em;
+	line-height: 1.625em;
+	padding-bottom: 30px;
+}
+
+.left__button{
+	border: none;
+	height: 58px;
+	width: 225px;
+	background-color: #5474fd;
+	color: #fff;
+	text-transform: uppercase;
+	padding: 20px 37px;
+}
+
+.left__button:hover{
+	color: #5474fd;
+	background-color: #fff;
+}
+.right{
+	position: relative;
+	margin-top: 110px;
+	float: right;
+	margin-left: 0px;
+}
+.right__left{
+	margin-right: 125px;
+}
+
+.right__right{
+	position: relative;
+	margin-left: 100px;
+	right: 0px;
+}
+
+#darkgrey{
+	height: 335px;
+	background-color: #333333;
+	background-image: url('../img/Shape 1.png');
+	background-repeat: no-repeat;
+	background-position: left 50% top 40px;
+}
+
+.icnos{
+	text-align: center;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	margin: 0 70px;
+}
+
+.icons__ico{
+	margin-top: 140px;
+	margin-left: 20px;
+}
+
+.text{
+	margin: 30px auto;
+	color: #fff;
+	font-size: 2.250em;
+}
+
+#home{
+	background-image: url(../img/render-1477041_1280.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 670px;
+}
+
+.houseContainer{
+	display: inline-block;
+	background-color: rgb(35, 35, 35);
+	opacity: 0.9;
+	position: relative;
+	top: 220px;
+	width: 540px;
+	height: 371px;
+	color: #fff;
+	padding: 45px 30px 0 30px;
+}
+
+.houseContainer__text, .houseContainer__head{
+	margin-bottom: 25px;
+	font-size: 1.250em;
+	font-weight: 100;
+}
+
+.houseContainer__head, .houseContainer__button{
+	text-transform: uppercase;
+}
+
+.houseContainer__info{
+	margin-bottom: 
+}
+
+.houseContainer__button{
+	display: block;
+	height: 55px;
+	width: 225px;
+	background: linear-gradient(45deg, rgb(73, 107, 254) 40%, rgb(84, 116, 248) 20%);
+	border: none;
+	margin:48px 0 20px 0;
+}
+
+.houseContainer__button:hover{
+	color: #496bfe;
+	background: #fff;
+}
+
+#mountain{
+	background-image: url(../img/spain-1859434_1280.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 670px;
+}
+
+.houseContainer--right{
+	position: relative;
+	left: 50%;
+}
+
+#men{
+	background-image: url(../img/header-img.jpg);
+	background-size: cover;
+	background-position: center;
+	background-repeat: no-repeat;
+	height: 670px;
+}
+
+.travelText{
+	margin: 0 auto;
+	padding-top: 120px;
+	text-align: center;
+	color: #fff;
+	font-size: 1.875em;
+	font-weight: 100;
+}
+
+.travelMan{
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+	margin: 95px 25px 0 25px;
+	color: #fff;
+}
+
+.travelMan__block {
+  background-color: rgb(51, 51, 51);
+  width: 665px;
+  height: 284px;
+  padding: 65px 30px 55px 60px;
+  font-weight: 100;
+}
+
+.block__head{
+	font-size: 1.250em;
+}
+
+
+.block__text{
+	margin-top: 40px;
+}
+
+footer{
+	background: #232323;
+	width: 100%;
+	height: 264px;
+	text-align: center;
+	color: #fff;
+}
+
+.footer__header{
+	text-transform: uppercase;
+	margin: 0px auto;
+	padding: 115px 0 10px 0;
+	font-weight: 100;
+	letter-spacing: 0.1em;
+}
+
+.footer__text{
+	margin: 0;
+	padding: 0;
+	letter-spacing: 0.1em;
+}
+
+.blue{
+	color: #506be2;
+	font-size: 1.35em;
+}
+
+.footer_icon{
+	display: inline-block;
+	margin-top: 28px;
+}
+
+.icon{
+	margin-right: 20px;
+}
+
+.icon:last-child{
+	margin-right: 0;
+}
+
+.icon:hover a{
+	color: #5474fd;
+}
+
+Layout 
+
+/* Typography
+a,
+input[type="submit"],
+input[type="button"],
+button{
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+input[type="submit"],
+input[type="button"],
+button,
+.ba-button{
+	display: inline-block;
+	outline: 0;
+    outline-offset: 0;
+}
+input[type="submit"]:hover,
+input[type="button"]:hover,
+button:hover,
+.ba-button:hover{
+
+}
+
+input[type="text"],
+input[type="email"],
+input[type="password"],
+input[type="number"],
+input[type="tel"],
+textarea,
+select {
+	transition: color .3s ease-in, border-color .3s ease-in, background-color .3s ease-in, opacity .3s ease-in;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="password"]:focus,
+input[type="number"]:focus,
+input[type="tel"]:focus,
+textarea:focus,
+select:focus {
+	outline: 0;
+    outline-offset: 0;
+}
+textarea {
+
+}

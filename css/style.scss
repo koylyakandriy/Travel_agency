@@ -1,0 +1,14 @@
+/*@import './componetns/_variables.scss';*/
+/*@import './componetns/_general.scss';*/
+/*@import './componetns/_title.scss';*/
+/*@import './componetns/_borders.scss';*/
+/*@import './componetns/_slider.scss';*/
+@import './normalize.css';
+@import './layout.css';
+/*@import url('https://fonts.googleapis.com/css?family=Open+Sans:700%7CRaleway:400,500%7CRoboto:900');*/
+
+.ba-container{
+	width: 1200px;
+	max-width: 100%;
+	margin: 0 auto;
+}
